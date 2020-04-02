@@ -23,6 +23,11 @@ header,main{
 	padding: 2rem;
 }
 
+nav{
+	display: grid;
+	grid-template-columns: 300px auto ;
+}
+
 
 nav ul{
 	display: grid;
@@ -36,10 +41,15 @@ nav li{
 	list-style-type: none;
 }
 
-nav a,h3{
+nav a{
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 1.4rem;
+}
+
+h3{
+	margin-bottom: -10rem;
+	font-size: 2rem;
 }
 
 input{

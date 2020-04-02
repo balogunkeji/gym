@@ -4,6 +4,11 @@
 	max-height: 100vh;
 }
 
+nav{
+	display: grid;
+	grid-template-columns: 200px auto;
+}
+
 nav ul{
 	display: grid;
 	grid-template-columns:	1fr;
@@ -42,7 +47,7 @@ img[alt="gym-2"],img[alt="gym-1"]{
 
 button{
 	font-size: 1.2rem;
-	margin: 250px 0px 0px 100px;
+	margin: 250px 0px 0px 120px;
 	max-width: 120px;
 	max-height: 70px;
 	bottom: 100px;
