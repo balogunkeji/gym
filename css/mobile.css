@@ -6,7 +6,7 @@
 
 nav{
 	display: grid;
-	grid-template-columns: 200px auto;
+	grid-template-columns: 150px auto;
 }
 
 nav ul{
@@ -47,7 +47,7 @@ img[alt="gym-2"],img[alt="gym-1"]{
 
 button{
 	font-size: 1.2rem;
-	margin: 250px 0px 0px 120px;
+	margin: 250px 0px 0px 100px;
 	max-width: 120px;
 	max-height: 70px;
 	bottom: 100px;
